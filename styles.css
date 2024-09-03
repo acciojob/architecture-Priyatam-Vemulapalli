@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+	background-color: palegreen;
+	
+}
+table {
+            background-color: palegreen;
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid black; /* Apply border directly to table */
+        }
+        th, td {
+            border: 1px solid black; /* Ensure th and td have borders */
+            padding: 8px;
+            text-align: left;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+.imageContainer {
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
